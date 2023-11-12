@@ -1,0 +1,56 @@
+h4 {
+  text-align: center;
+  margin-left: 0.1px;
+  top: -94px;
+  position: relative;
+  color: aliceblue;
+  font-weight: 100;
+  right: 135;
+  left: 135;
+  width: 1530px;
+  height: 24px;
+  background-color: #000000;
+}
+span .fa-solid {
+  margin-right: 2px;
+  margin-top: 3px;
+  font-size: 10px;
+  margin-left: 10px;
+  size: 10px;
+  color: white;
+}
+.shop-now {
+  text-decoration: underline white;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.drop {
+  position: relative;
+  display: contents;
+  color: blueviolet;
+  background-color: #4caf50;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.drop :hover {
+  background-color: #f1f1f1;
+  display: block;
+}
+.shop-now:hover {
+  color: rgb(75, 122, 17);
+}
+.english {
+  margin-left: 200px;
+  color: rgb(220, 220, 228);
+  font-weight: none;
+}
+
+.btn {
+  color: white;
+}

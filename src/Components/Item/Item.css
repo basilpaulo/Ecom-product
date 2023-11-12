@@ -1,0 +1,77 @@
+.Item-front {
+  width: 100%;
+  position: relative;
+  background-color: bisque;
+  height: 50%;
+  width: 50%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  .Items-front {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+  }
+}
+
+/* styles.css */
+
+.my-image {
+  position: relative;
+
+  display: grid;
+  width: 8%;
+  height: 8%;
+  margin-top: 40px;
+  margin-bottom: -35px;
+  margin-left: 80px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.my-image:hover {
+  transform: scale(1.1);
+}
+
+.front-selected {
+  transform: scale(1.2);
+  z-index: 1;
+  /* Additional styles for the 'front' image when selected */
+}
+
+.top-selected {
+  transform: scale(1.2);
+  z-index: 1;
+  /* Additional styles for the 'top' image when selected */
+}
+
+.both-selected {
+  transform: scale(1.2);
+  z-index: 1;
+  /* Additional styles for the 'both' image when selected */
+}
+
+.box-selected {
+  transform: scale(1.2);
+  z-index: 1;
+  /* Additional styles for the 'box' image when selected */
+}
+
+.duplicate-image {
+  position: absolute;
+
+  width: 38%;
+  height: 53%;
+  margin-top: -500px;
+  margin-left: 300px;
+  transform: scale(1.2); /* Adjust the scale factor as needed */
+  transition: transform 0.3s;
+  z-index: 1;
+}
